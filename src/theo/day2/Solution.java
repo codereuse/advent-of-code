@@ -1,9 +1,9 @@
 import java.io.*;
 import java.util.*;
 
-class Advent2 {
+class Solution {
   public static void main(String args[]) {
-    File input = new File("advent2.txt");
+    File input = new File("input.txt");
     try {
       Scanner sc = new Scanner(input).useDelimiter(",");
       ArrayList<Integer> codes = new ArrayList<Integer>();
