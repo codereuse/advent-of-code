@@ -1,17 +1,15 @@
 import java.io.*;
 import java.util.*;
 
-public class Advent1 {
+public class Solution {
 
   public static void main(String[] args) {
-    File input = new File("advent1.txt");
+    File input = new File("input.txt");
     try {
       Scanner sc = new Scanner(input);
       int totFuel = 0;
       while (sc.hasNext()) {
         int m = sc.nextInt();
-        //System.out.println("Module mass: " + m);
-        //System.out.println("Fuel for module: " + modFuel);
         totFuel += calculateFuel(m);
       }
       System.out.println("Fuel: " + totFuel);
