@@ -4,7 +4,7 @@ import java.util.*;
 
 class SolutionExtended {
   public static void main(String args[]) {
-    File input = new File("test.txt");
+    File input = new File("input.txt");
     try {
       Scanner sc = new Scanner(input);
       List<String> firstWireCoordinates = Arrays.asList(sc.nextLine().split(","));
